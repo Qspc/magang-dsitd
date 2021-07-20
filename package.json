@@ -1,0 +1,22 @@
+{
+  "name": "tailwind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "postcss.config.js",
+  "scripts": {
+    "dev": "tailwindcss build ./src/styles.css -o ./public/css/tailwind.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "postcss-cli": "^8.3.1"
+  },
+  "devDependencies": {
+    "@swc/core": "^1.2.65",
+    "@swc/wasm": "^1.2.65",
+    "autoprefixer": "^9.8.6",
+    "postcss": "^8.1.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.2.4",
+    "ts-node": "^10.1.0"
+  }
+}
