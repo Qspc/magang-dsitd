@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+</head>
+<body>
+    <div class="grid justify-items-center text-lg font-sans">
+
+      <div class="bg-white mt-12 w-64 md:w-96 lg:w-128 border shadow-lg">
+          <div class=" mx-4 mt-4 ">
+            <button class=" px-2 py-1">Filter</button>
+            <button class=" px-2 py-1 text-red-500">Reset</button>
+          </div>
+
+          <div class="">
+            <div class="relative">
+              <!-- tanda x -->
+              <div class="absolute right-5 -top-8 cursor-pointer z-10 p-2">
+              <img src="https://image.flaticon.com/icons/svg/151/151882.svg"/ class=" h-3 w-3 w-2 h-2">
+              </div>
+            </div>
+          </div>
+
+          <div class="mx-4 mt-2">
+            <div>
+              <h1 class=" my-1">Semester</h1>
+              <select class="pr-auto pl-2 py-1 shadow border text-right">
+                <option>Semester 1</option>
+                <option>Semester 2</option>
+                <option>Semester 3</option>              
+              </select>
+
+            </div>
+            <div class=" my-12">
+              <h1 class=" my-1">Mata Kuliah</h1>
+              <select class="pr-auto pl-2 py-1 shadow border text-right">
+                <option>Semester 1</option>
+                <option>Semester 2</option>
+                <option>Semester 3</option>              
+              </select>
+            </div>
+          </div>
+  
+          <div class="p-2 flex justify-end rounded-b">
+              <button class="focus:outline-none py-1 px-2 md:py-2 md:px-3 w-24 mr-2 bg-blue-700 hover:bg-blue-600 text-white rounded">Filter</button>
+          </div>
+      </div>
+
+    </div>
+</body>
+</html>
